@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 const Accordion = ({items}) => {
     const [currentIndex, setCurrentIndex] = useState(null);
 
-
     const onTitleClick = (index) => {
         setCurrentIndex(index);
     }
